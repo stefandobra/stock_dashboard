@@ -1,6 +1,6 @@
-# 03 Stock Dashboard
+# Stock Dashboard
 
-A Flask web dashboard for live stock data, news, AI insights and portfolio tracking. Built in Python as part of a portfolio project series demonstrating AI and full-stack development skills.
+A Flask web dashboard for live stock data, news, AI insights and portfolio tracking. Built in Python.
 
 ## Features
 
@@ -18,7 +18,7 @@ A Flask web dashboard for live stock data, news, AI insights and portfolio track
 ## Project Structure
 
 ```
-03_stock_dashboard/
+stock_dashboard/
 │
 ├── app.py                   # Flask entry point — routes and request handling
 ├── db.py                    # SQLite connection management and schema creation
@@ -44,7 +44,7 @@ A Flask web dashboard for live stock data, news, AI insights and portfolio track
 ## How to Run
 
 ```powershell
-cd 03_stock_dashboard
+cd stock_dashboard
 venv\Scripts\activate
 python app.py
 ```
@@ -80,19 +80,6 @@ ANTHROPIC_API_KEY=...
 - Input validation — server-side validation layered under HTML required attributes
 - Environment variables — secure API key management with python-dotenv
 - Anthropic API — prompt caching on system prompt, structured JSON response parsing
-
-## Part of a Larger Project Series
-
-| # | Project | Status |
-|---|---------|--------|
-| 01 | Finance Tracker | ✅ Complete |
-| 02 | Booking System | ✅ Complete |
-| 03 | Stock Dashboard | ✅ Complete |
-| 04 | Fraud Detection ML | ⏳ Planned |
-| 05 | RAG System | ⏳ Planned |
-| 06 | AI Agent | ⏳ Planned |
-| 07 | Multi-Agent System | ⏳ Planned |
-| 08 | AI Receptionist SaaS (Capstone) | ⏳ Planned |
 
 ---
 
